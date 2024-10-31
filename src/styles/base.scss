@@ -1,0 +1,120 @@
+.container{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+// md
+@media screen and (min-width: 768px) and (max-width: 828px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 829px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+// lg
+@media screen and (min-width: 1024px) and (max-width: 1084px) {
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 1085px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+// xl
+@media screen and (min-width: 1280px) and (max-width: 1340px) {
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 1341px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+// 2xl
+@media screen and (min-width: 1536px) and (max-width: 1596px) {
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (min-width: 1597px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+html{
+  font-size: 16px;
+}
+body{
+  font-size: 14px;
+}
+html,
+body {
+  width: 100%;
+  min-width: 1200px;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  -webkit-font-smoothing: antialiased;
+  background-color: #F2F3F5;
+  color: #303133;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+:focus-visible {
+  outline: none;
+}
+.el-button:focus-visible{
+  outline: none;
+}
+
+#nprogress {
+  .bar{
+    background: #256b07;
+  }
+  .peg{
+    box-shadow: 0 0 10px #256b07, 0 0 5px #256b07;
+  }
+}
+
+.custom-bg-index{
+  background: url(/images/index_bg.png) no-repeat center center / 100% 100%;
+}
+.custom-bg-index2{
+  background: url(/images/index_bg2.png) no-repeat center center / 100% 100%;
+}
+
+.el-popover__title{
+  font-weight: 600;
+}
+
+.el-form-item__label{
+  color: var(--el-text-color-primary);
+}
+.el-checkbox{
+  --el-checkbox-text-color: var(--el-text-color-regular);
+}
+
+.el-tour__content{
+  width: 400px;
+  white-space: pre-wrap;
+}
+.el-date-editor .el-range-input{
+  width: auto;
+}
